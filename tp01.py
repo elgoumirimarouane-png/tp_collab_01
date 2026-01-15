@@ -1,1 +1,6 @@
-# Créer une fonction qui renvoie le texte en majuscule
+def en_majuscule(texte):
+    return texte.upper()
+message = "bonjour tout le monde"
+resultat = en_majuscule(message)
+print(resultat)
+
